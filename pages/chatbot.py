@@ -5,7 +5,7 @@ import json
 
 # Load environment variables from .env
 load_dotenv()
-MODEL_NAME = os.getenv("MODEL_NAME", "meta-llama/Meta-Llama-3.1-70B-Instruct-fast")  # Default model
+MODEL_NAME = os.getenv("MODEL_NAME", "meta-llama/Meta-Llama-3.1-70B-Instruct")  # Default model
 
 # Try to import OpenAI client, show clear error if not installed
 try:
